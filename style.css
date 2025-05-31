@@ -160,8 +160,17 @@ header nav ul{
     height: 200px;
 }
 .contact .submit-btn{
-    width: 80px;
-    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 2px solid darkgoldenrod;
+    color: darkgoldenrod;
+    cursor: pointer;
 }
 footer{
     padding: 15px;
